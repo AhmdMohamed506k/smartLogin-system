@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+h1{
+    color: #17a2b8;
+}
+.container{
+    height: 75vh;
+  
+}
+.group input{
+    color: white;
+    background-color: transparent;
+}
+
+.group input::placeholder{
+    color: rgb(182, 182, 182);
+
+}
+.group{
+    width: 64%;
+    box-shadow: -5px 2px 54px -9px rgb(0, 0, 0.2);
+}
+a{
+  transition: all;
+  text-decoration: none;
+ animation-duration: 3s;
+}
+
+a:hover{
+    text-decoration: underline;
+   
+}
